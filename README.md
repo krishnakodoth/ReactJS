@@ -3,9 +3,8 @@
 Here are some ideas to get you started:
 
 - 🌱 Pronouns: he/him/his
-- 📫 How to reach me: social media
 
-
+<!--
    <p align="left">
       <a href="https://www.youtube.com/c/webcifarOfficial?sub_confirmation=1">
          <img alt="youtube subscribers" title="Subscribe to my YouTube channel" src="https://custom-icon-badges.demolab.com/youtube/channel/subscribers/UCdxaLo9ALJgXgOUDURRPGiQ?color=%23E05D44&label=SUBSCRIBE&logo=video&logoColor=white&style=for-the-badge&labelColor=CE4630"/></a> 
@@ -17,7 +16,7 @@ Here are some ideas to get you started:
    
 
 ### 📺 Latest YouTube Videos ![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCdxaLo9ALJgXgOUDURRPGiQ?style=social)
-
+-->
 <!-- YOUTUBE:START -->
 <!--
 - [Zustand Crash Course | React State Management](https://www.youtube.com/watch?v=QztUD2g85jo)
@@ -31,8 +30,8 @@ Here are some ideas to get you started:
 ### ♥ Like my works and want to support me?
 <a href="https://www.buymeacoffee.com/krishnakodoth" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 45px !important;width: 162.75px !important;" ></a>
 
-
-[//]: [fb]: http://facebook.com/fb.shaifarfan08
+<!--
+[fb]: http://facebook.com/fb.shaifarfan08
 [ig]: http://instagram.com/shaifarfan08
 [tw]: http://twitter.com/shaifarfan08
 [wcfb]: http://facebook.com/cifarx
@@ -40,3 +39,4 @@ Here are some ideas to get you started:
 [wctw]: http://twitter.com/webcifar
 [wcwebsite]: http://webcifar.com
 [wyt]: https://www.youtube.com/channel/UCdxaLo9ALJgXgOUDURRPGiQ
+-->
