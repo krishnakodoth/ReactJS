@@ -6,8 +6,13 @@ import TodoModal from "./TodoModal";
 import { updateFilterStatus } from "../slices/todoSlice";
 import { RootState } from "../app/store";
 
-function AppHeader() {
-  const [modalOpen, setModalOpen] = useState(false);
+function AppHeader({
+  modalOpen,
+  setModalOpen,
+}: {
+  modalOpen: boolean;
+  setModalOpen: React.Dispatch<React.SetStateAction<boolean>>;
+}) {
   const initialFilterStatus = useSelector(
     (state: RootState) => state.todo.filterStatus
   );
