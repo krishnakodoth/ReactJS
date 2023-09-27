@@ -1,0 +1,15 @@
+.actionBar {
+  padding: 10px;
+  background: #d2ecd2;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: left;
+}
+.right {
+  display: inline-block;
+  margin-left: auto;
+  position: absolute;
+  right: 0;
+}

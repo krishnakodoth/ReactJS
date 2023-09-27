@@ -1,0 +1,16 @@
+.totItem {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+.totItem p {
+  display: inline-block;
+  width: 80%;
+  padding: 10px;
+}
+
+.right {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
