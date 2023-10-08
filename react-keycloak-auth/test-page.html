@@ -1,0 +1,99 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <style>
+        body {
+            background-color: #ccc;
+        }
+
+        .box {
+            border: solid 1px #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            background-color: white;
+            margin: 5px 0;
+        }
+
+        .box div.main {
+            display: inline;
+            border: solid 1px;
+        }
+
+        .main span {
+            width: 30%;
+            display: inline-block;
+        }
+
+        .main span select {
+            display: inline-block;
+            width: 100%;
+        }
+
+        .divide {
+            border-top: solid 1px #ccc;
+            margin-top: 15px;
+            padding: 10px 0;
+        }
+
+        .higlight {
+            color: #1a52eb;
+            font-weight: bolder;
+        }
+
+        .higlight.active {
+            color: green;
+        }
+
+        .divide span {
+            width: 20%;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="box"> Subscription</section>
+    <section class="box main">
+        <div>
+            <span>
+                Partner
+                <select>
+                    <option>Select</option>
+                </select>
+            </span>
+            <span>
+                Customer
+                <select>
+                    <option>Select</option>
+                </select>
+            </span>
+            <span>
+                Network Name
+                <select>
+                    <option>Select</option>
+                </select>
+            </span>
+        </div>
+        <div class="divide">
+            <span>
+                <strong>Slice Id</strong>
+                <b class="higlight">21-371</b>
+            </span>
+            <span>
+                <strong>SLA</strong>
+                <b class="higlight">Basic</b>
+            </span>
+            <span>
+                <strong>Customer Specification</strong>
+                <b class="higlight">Sample Text</b>
+            </span>
+            <span>
+                <strong>Network Status</strong>
+                <b class="higlight active">Basic</b>
+            </span>
+        </div>
+
+    </section>
+</body>
+
+</html>
