@@ -1,0 +1,8 @@
+.todoWrapper{
+  border: solid 1px #ccc;
+  margin: 0 auto;
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #ddd;
+}
