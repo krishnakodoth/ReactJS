@@ -1,0 +1,21 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.box {
+  border: solid 1px #ddd;
+  box-shadow: 5px 10px 20px 4px #958d8dc2;
+  border-radius: 5px;
+  padding: 20px;
+}
+.category {
+  grid-column: 1;
+  grid-row: 1;
+}
+.list-product {
+  grid-column: 2;
+  grid-row: 1;
+  position: relative;
+}
