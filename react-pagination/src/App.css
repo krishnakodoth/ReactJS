@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.content-wraper {
+  display: inline-block;
+  padding: 10px;
+  width: 100%;
+  margin: 10px;
+}
+
+.pagination button {
+  border: solid 1px #131315;
+  padding: 5px 10px;
+  margin: 2px;
+  color: #ffffff;
+  background: #72737c;
+  border-radius: 5px;
+}
+.pagination button.active {
+  border: solid 1px blue;
+  background: #1e32b9;
+}
+.pagination button:hover {
+  border: 1px solid #0099cc;
+  background-color: #00aacc;
+  color: #ffffff;
+  padding: 5px 10px;
+}
+
+.pagination button:disabled,
+.pagination button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+.pagination button.placeholder{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
