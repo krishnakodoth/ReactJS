@@ -1,0 +1,23 @@
+.app-wrapper{
+  border: solid 1px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+}
+.header-list{
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  border-bottom: solid 1px #ddd;
+  padding: 10px;
+}
+
+.red{
+  border: solid 1px red;
+}
+.green{
+  border: solid 1px green;
+}
+.orange{
+  border: solid 1px orange;
+}
